@@ -81,3 +81,9 @@ main div {
   background-color: rgb(84, 188, 230);
   grid-area: e;
 }
+@media screen and (max-width: 1440px) and (min-width: 375px) {
+  body {
+    float: none;
+    width: 100%;
+  }
+}
