@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap");
+@media screen and (max-width: 1440px) and (min-width: 375px) {
+  body {
+    float: none;
+    width: 100%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -28,12 +34,15 @@ li {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  width: 50%;
+  width: 55%;
   text-align: center;
   margin: auto;
   padding: 50px;
   justify-content: center;
   align-items: center;
+}
+div {
+  padding: 2em;
 }
 
 .sedans {
@@ -93,16 +102,4 @@ div p {
 .btn:hover {
   background-color: transparent;
   color: hsl(0, 0%, 95%);
-}
-/* media query for desktop */
-@media (max-width: 1440px) {
-  main {
-    flex: 90%;
-  }
-}
-/* media query for mobile phones */
-@media (min-width: 375px) {
-  main {
-    flex: 50%;
-  }
 }
